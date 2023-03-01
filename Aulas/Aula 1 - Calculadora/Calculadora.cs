@@ -1,4 +1,4 @@
-using System;
+ï»¿using System;
 
 namespace ConsoleApp2
 {
@@ -12,42 +12,45 @@ namespace ConsoleApp2
             string op;
             int res = 0;
 
-            Console.WriteLine("Digite um número");
+            Console.WriteLine("Digite um nÃºmero");
             numero1 = int.Parse(Console.ReadLine());
 
-            Console.WriteLine("Digite outro número");
+            Console.WriteLine("Digite outro nÃºmero");
             numero2 = int.Parse(Console.ReadLine());
 
-            Console.WriteLine("Qual operação? +, -, /, *");
+            Console.WriteLine("Qual operaÃ§Ã£o? +, -, /, *");
             op = Console.ReadLine();
+
+            //int soma = numero + numero;
+            //Console.WriteLine(soma);
 
             if (op.Equals("+"))
             {
                 res = numero1 + numero2;
-                Console.WriteLine("O Resultado é {0}", res);
+                Console.WriteLine("O Resultado Ã© {0}", res);
             }
 
             else if (op.Equals("-"))
             {
                 res = numero1 - numero2;
-                Console.WriteLine("O Resultado é {0}", res);
+                Console.WriteLine("O Resultado Ã© {0}", res);
             }
 
             else if (op.Equals("/"))
             {
                 res = numero1 / numero2;
-                Console.WriteLine("O Resultado é {0}", res);
+                Console.WriteLine("O Resultado Ã© {0}", res);
             }
 
             else if (op.Equals("+"))
             {
                 res = numero1 * numero2;
-                Console.WriteLine("O Resultado é {0}", res);
+                Console.WriteLine("O Resultado Ã© {0}", res);
             }
 
             else
             {
-                Console.WriteLine("Operação não existente");
+                Console.WriteLine("OperaÃ§Ã£o nÃ£o existente");
             }
 
             Console.ReadKey();
