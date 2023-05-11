@@ -11,7 +11,7 @@ namespace Lista05
         static void Main(string[] args)
         {
             Console.WriteLine("------MENU------");
-            Console.WriteLine("Digite o exercício que você quer testar");
+            Console.WriteLine("Digite o exercício que você quer testar. De 1 à 7");
             Console.WriteLine("Digite 8 para sair");
             Console.WriteLine("------------------\n");
 
@@ -146,7 +146,7 @@ namespace Lista05
                 }
 
                 Console.WriteLine("------MENU------");
-                Console.WriteLine("Digite o exercício que você quer testar");
+                Console.WriteLine("Digite o exercício que você quer testar. De 1 à 7");
                 Console.WriteLine("Digite 8 para sair");
                 Console.WriteLine("------------------\n");
 
