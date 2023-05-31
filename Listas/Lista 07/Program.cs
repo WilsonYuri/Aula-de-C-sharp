@@ -6,9 +6,6 @@ namespace Lista_07
     {
         static void Main(string[] args)
         {
-
-
-
             int p;
             Console.WriteLine("Qual programa que você deseja executar? ");
             p = int.Parse(Console.ReadLine());
