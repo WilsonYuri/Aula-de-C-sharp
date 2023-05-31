@@ -137,7 +137,7 @@ namespace _24_05_2023
             {
                 Console.WriteLine("----Menu----");
                 Console.WriteLine("Digite o numero do exercíco para ser testado");
-                Console.WriteLine("(Selecione um número de 1 à 5 ou 0 para cancelar)");
+                Console.WriteLine("(Selecione um número de 1 à 4 ou 0 para cancelar)");
 
                 opção =int.Parse(Console.ReadLine());
 
