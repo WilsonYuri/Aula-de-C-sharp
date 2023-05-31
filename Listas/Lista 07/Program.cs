@@ -1,14 +1,11 @@
 ﻿using System;
 
-namespace Lista7PR2
+namespace Lista_07
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-
-
-
             int p;
             Console.WriteLine("Qual programa que você deseja executar? ");
             p = int.Parse(Console.ReadLine());
