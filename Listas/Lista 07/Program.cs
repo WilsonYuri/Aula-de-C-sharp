@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Lista7PR2
+namespace Lista_07
 {
     internal class Program
     {
